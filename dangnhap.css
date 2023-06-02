@@ -1,0 +1,56 @@
+html{
+    background-color: tomato;
+}
+.header{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: white;
+    width: 100%;
+    background-color: tomato;
+    height: 80px;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    height: 600px;
+    background-image: url('https://gvn360.com/wp-content/uploads/2021/03/GearVN_Gundam_-21-1536x864.jpg');
+}
+.container{
+    position: relative;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: white;
+    max-width: 500px !important;
+    width: 100% !important;
+    height: 400px;
+    margin: 0px !important;
+}
+.text-form{
+    font-size: 30px;
+}
+.form-group{
+    font-size: 20px;
+    width: auto;
+    height: auto;
+    margin-bottom: 10px;
+    justify-items: end;
+}
+#hidden-password{
+    cursor: pointer;
+    position: relative;
+    bottom: 30px;
+    z-index: 1000;
+    float: right;
+}
+.btn-login{
+    margin-top: 40px;
+    border: none;
+    border-radius: 5px;
+    background-color: tomato;
+    color: white;
+    height: 50px;
+}
