@@ -1,0 +1,109 @@
+html{
+    background-color: tomato;
+}
+header{
+    height: 100px;
+}
+.head-form{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+.text-header{
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.help-header{
+    color:white;
+    padding-right: 30px;
+    cursor: pointer;
+}
+.body{
+    width: 100%;
+    background-image: url('https://gvn360.com/wp-content/uploads/2021/03/GearVN_Gundam_-21-1536x864.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 550px;
+    height:550px;
+}
+.form{
+    position: relative;
+    top: 128px;
+    margin-top: -105px;
+    margin-right: 20px;
+    float: right;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+}
+.heading-form{
+    font-weight: normal;
+    font-size: 30px;
+    margin: 0px;
+    margin-left: 20px;   
+}
+.form-group{
+    display: grid;
+    justify-content: center;
+    margin: 12px 0;
+}
+.form-label{
+    font-weight: 100;
+    font-size: 20px;
+}
+#fullname{
+    padding:0 8px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+#user-id{
+    padding:0 8px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+#email{
+    padding:0 8px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+#phone-number{
+    padding:0 8px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+#user-password{
+    padding:0 8px;
+    font-size: 20px;
+    border-radius: 3px;
+}
+.form-message{
+    display: flex;
+    color: red;
+}
+
+#hidden-password{
+    height: 15px;
+    border: none;
+    border-radius: 10px;
+    position: relative;
+    right: -245px;
+    bottom: 21px;
+    width: 20px;
+    background-color: white;
+}
+.invalid{
+    color: red;
+}
+.btn-dk{
+    background-color: rgb(239, 76, 47);
+    color: white;
+    font-size: 25px;
+    position: relative;
+    right: -125px;
+    border: none;
+    border-radius: 5px;
+    min-width: 250px;
+    cursor: pointer;    
+}

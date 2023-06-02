@@ -1,0 +1,152 @@
+
+.header{
+    height: 160px;
+    background-color:tomato !important;
+}
+.container{
+    padding: 0 !important;
+}
+.row{
+    margin-right: 0 !important;
+}
+.web {
+    display: flex;
+    flex-direction: column;
+}
+.container-fluid-main{
+    height: auto;
+    /* overflow-y: auto; */
+}
+.header__log{
+    padding-left: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+.list_header{
+    padding-left: 1%;
+    list-style: none;
+}
+.item_header{
+    color: white;
+    display: inline-block;
+    margin: 3px;
+    cursor: pointer;  
+}
+.item_header:hover{
+    opacity: 0.6;
+}
+.item_header-bold{
+    margin-right: 15px;
+    font-weight: 1000;
+    font-size: 25px;
+    
+}
+.header__search-icon{
+    font-size: 20px;
+    width: 20% !important;
+    height: 25px;
+    color: white;
+}
+/* .container-fluid{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+} */
+section{
+    margin: 30px auto !important;
+}
+.card{
+    --bs-card-bg: tomato !important;
+}
+.card-body{
+    color: white !important;
+}
+.btn-anh{
+    display: none;
+    background-color: rgb(133, 127, 127);
+    color: white;
+    opacity: 0.6;
+    width: 40px;
+    height: 30px;
+}
+.btn-anh:hover{
+    opacity: 1;
+}
+.anh:hover .btn-anh{
+    display: block;
+}
+.anh{
+    display: flex;
+    width: 100%;
+    opacity: 1;
+    height: auto !important;
+}
+.list-anh{
+    padding: 0px !important;
+    padding-top: 10px !important;
+    padding-right: 10px !important;
+    width: 850px;
+    height: 300px;
+}
+.anhtest{
+    cursor: pointer;
+    width: 100%;
+    height: 300px;
+}
+.anh-content{
+    list-style-type: none;
+    height: 100% !important;
+    padding: 0px !important;
+    padding-top: 10px !important;
+}
+.list-anh-content{  
+    margin: 0px;
+    width: 100%;
+    padding-right: 0px !important;
+}
+.item-anh-content{
+    margin: none;
+    width: 100%;
+    height: 150px;
+   
+}
+.content{
+    margin-top: 20px;
+}
+.form-select{
+    color: white !important;
+    background-color: tomato !important;
+    text-align: center;
+}
+.img{
+    cursor: pointer;
+    height: 100%;
+}
+.page-item{
+    margin-top: 10px;
+}
+.footer{
+    height: 80px;
+    background-color: tomato;
+    color: white;
+    font-size: 30px;
+}
+.list-group-footer{
+    padding-top: 20px;
+    display: flex !important;
+    flex-direction: row !important;
+    justify-content:space-around;
+}
+
+.list-group-item-footer{
+    font-size: 16px;
+    min-width: auto !important;
+    min-height: 30px;
+    max-width: 250px !important;
+    max-height: 80px;
+}
+
+.link:hover{
+    color: red;
+}
